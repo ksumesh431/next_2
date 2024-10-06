@@ -1,103 +1,3 @@
-// import {
-//     Menubar,
-//     MenubarMenu,
-//     MenubarTrigger,
-// } from "@/components/ui/menubar"
-// import { ModeToggle } from "./theme-button"
-
-// const CustomHeader = () => {
-//     return (
-//         <div className="sticky  top-0 debug-border">
-//             <Menubar>
-//                 <MenubarMenu>
-//                     <MenubarTrigger>File</MenubarTrigger>
-//                     <MenubarTrigger>File</MenubarTrigger>
-//                     <MenubarTrigger>File</MenubarTrigger>
-//                     <MenubarTrigger>File</MenubarTrigger>
-//                     <MenubarTrigger>File</MenubarTrigger>
-//                     <MenubarTrigger>File</MenubarTrigger>
-//                     <MenubarTrigger>File</MenubarTrigger>
-
-//                     {/* Dark mode toggle */}
-//                     <ModeToggle /> 
-//                 </MenubarMenu>
-//             </Menubar>
-
-//         </div>
-//     )
-// }
-
-// export default CustomHeader
-
-
-// "use client"
-
-// import { useState, useEffect } from "react"
-// import {
-//   Menubar,
-//   MenubarMenu,
-//   MenubarTrigger,
-//   MenubarContent,
-//   MenubarItem,
-// } from "@/components/ui/menubar"
-// import { ModeToggle } from "./theme-button"
-// import { Button } from "@/components/ui/button"
-// import { ChevronDown } from "lucide-react"
-
-// const menuItems = [
-//   "File",
-//   "Edit",
-//   "View",
-//   "Format",
-//   "Tools",
-//   "Window",
-//   "Help"
-// ]
-
-// export default function CustomHeader() {
-//   const [isDropdown, setIsDropdown] = useState(false)
-
-//   useEffect(() => {
-//     const handleResize = () => {
-//       setIsDropdown(window.innerWidth < 768) // Change to dropdown on screens smaller than 768px
-//     }
-
-//     handleResize() // Check on initial render
-//     window.addEventListener('resize', handleResize)
-
-//     return () => window.removeEventListener('resize', handleResize)
-//   }, [])
-
-//   return (
-//     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-//       <div className="container mx-auto px-4">
-//         <Menubar className="border-none">
-//           <MenubarMenu>
-//             {isDropdown ? (
-//               <MenubarTrigger>
-//                 <Button variant="outline">
-//                   Menu <ChevronDown className="ml-2 h-4 w-4" />
-//                 </Button>
-//                 <MenubarContent>
-//                   {menuItems.map((item, index) => (
-//                     <MenubarItem key={index}>{item}</MenubarItem>
-//                   ))}
-//                 </MenubarContent>
-//               </MenubarTrigger>
-//             ) : (
-//               menuItems.map((item, index) => (
-//                 <MenubarTrigger key={index}>{item}</MenubarTrigger>
-//               ))
-//             )}
-//             <ModeToggle />
-//           </MenubarMenu>
-//         </Menubar>
-//       </div>
-//     </header>
-//   )
-// }
-
-
 "use client"
 
 import * as React from "react"
@@ -133,7 +33,7 @@ export default function CustomHeader() {
     return (
         <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="container flex h-14 items-center min-w-full">
-                <div className="mr-4 hidden md:flex">
+                <div className=" ml-2 mr-4 hidden md:flex">
                     <Link href="/" className="mr-6 flex items-center space-x-2">
                         <span className="hidden font-bold sm:inline-block">
                             My Website

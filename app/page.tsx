@@ -1,7 +1,7 @@
-import { IndexFunc } from "./index/page";
+import HomeFunc from "./dashboard/page";
 
 export default function Home() {
   return (
-    <IndexFunc />
+    <HomeFunc />
   );
 }

@@ -1,7 +1,7 @@
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
 
-export function IndexFunc() {
+export default function HomeFunc() {
   return (
     <div className="debug-border  flex justify-center">
 
