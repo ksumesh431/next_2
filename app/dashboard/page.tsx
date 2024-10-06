@@ -29,7 +29,7 @@ export function Card() {
       <div className="flex flex-col items-center flex-1 ">
         <Link href="/about" className="text-wrap text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
           <Button className="text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
-            <img src="/hand_ico.png" alt="Drawer" className="h-18 w-16 mb-2 " />
+            <img src="/hand_ico.png"  alt="Drawer" className="h-18 w-16 mb-2 " />
             NOTARY
           </Button>
         </Link>
