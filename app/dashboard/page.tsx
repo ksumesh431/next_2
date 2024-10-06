@@ -29,7 +29,7 @@ export function Card() {
       <div className="flex flex-col items-center flex-1 ">
         <Link href="/about" className="text-wrap text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
           <Button className="text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
-            <Image src="/hand_ico.png" width={16} height={18} alt="Drawer" className="h-18 w-16 mb-2 " />
+            <Image src="/next_2/hand_ico.png" width={16} height={18} alt="Drawer" className="h-18 w-16 mb-2 " />
             NOTARY
           </Button>
         </Link>
@@ -37,7 +37,7 @@ export function Card() {
       <div className="flex flex-col items-center flex-1 ">
         <Link href="/about" className="text-wrap text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
           <Button className="text-wrap text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
-            <Image src="/ico_2.png" width={16} height={18} alt="Drawer" className="h-18 w-16 mb-2 " />
+            <Image src="/next_2/ico_2.png" width={16} height={18} alt="Drawer" className="h-18 w-16 mb-2 " />
             EMBASSY LEGALIZATION SERVICES
           </Button>
         </Link>
@@ -45,7 +45,7 @@ export function Card() {
       <div className="flex flex-col items-center flex-1 ">
         <Link href="/about" className="text-wrap text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
           <Button className="truncate text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
-            <Image src="/ico_3.png" width={16} height={18} alt="Drawer" className="h-18 w-16 mb-2 " />
+            <Image src="/next_2/ico_3.png" width={16} height={18} alt="Drawer" className="h-18 w-16 mb-2 " />
             FEDERAL CERTIFICATION
           </Button>
         </Link>
@@ -53,7 +53,7 @@ export function Card() {
       <div className="flex flex-col items-center flex-1 ">
         <Link href="/about" className="text-wrap text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
           <Button className="text-sm w-full h-full bg-custom-bg text-white flex flex-col items-center hover:bg-[#778899] hover:underline  transition-colors duration-0 rounded-none">
-            <Image src="/ico_4.png" width={16} height={18} alt="Drawer" className="h-16 w-16 mb-2 " />
+            <Image src="/next_2/ico_4.png" width={16} height={18} alt="Drawer" className="h-16 w-16 mb-2 " />
             PROVINCIAL
           </Button>
         </Link>
