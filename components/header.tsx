@@ -25,7 +25,7 @@ export default function StickyHeader() {
         <header className="sticky top-0 z-50 w-full  border-b border-blue-900 bg-custom-bg text-white">
             <div className="container flex flex-col md:flex-row md:h-14 items-center justify-center px-4 py-2 md:py-0">
                 <Link href="/" className="flex items-center space-x-2 mb-2 md:mb-0 md:mr-4 ">
-                    <img src="/logo.png" alt="Logo" className="h-14 w-auto mr-5" />
+                    <img src="/next_2/logo.png" alt="Logo" className="h-14 w-auto mr-5" />
                 </Link>
                 <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
                     {navItems.map((item) => (

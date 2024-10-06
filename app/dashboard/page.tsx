@@ -9,7 +9,7 @@ export default function HomeFunc() {
   return (<Container className="mt-4 min-w-[55vw] ">
     <Card />
     <Container className=" min-w-full h-[50vh] px-0" style={{ paddingRight: 0, paddingLeft: 0 }}>
-      <Container className="h-[80%]  min-w-full bg-no-repeat bg-center bg-cover bg-image" style={{ backgroundImage: `url(/document_services_banner.jpg)`, backgroundSize: "cover" }}></Container>
+      <Container className="h-[80%]  min-w-full bg-no-repeat bg-center bg-cover bg-image" style={{ backgroundImage: `url(/next_2/document_services_banner.jpg)`, backgroundSize: "cover" }}></Container>
       <Container className="min-w-full h-[20%]" style={{ paddingRight: 0, paddingLeft: 0 }}>
         <footer className="min-w-full h-full bg-custom-bg text-primary-foreground ">
           <p className="m-2 text-3xl font-bold mt-0 p-2 pt-3"> Document Services</p>
